@@ -22,6 +22,7 @@ const CatCard: React.FC<ICatCard> = ({ tag, title, body, author, time }) => {
             height="400"
           />
         </div>
+        hi
         <div className={styles.card__body}>
           <span className={`${styles.tag} ${styles['tag-blue']}`}>{tag}</span>
           <h4>{title}</h4>

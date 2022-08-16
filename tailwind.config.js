@@ -21,6 +21,9 @@ module.exports = {
         blue: {
           500: '#1a73e8',
         },
+        black: {
+          500: '#121212',
+        },
       },
       spacing: {
         128: '32rem',
