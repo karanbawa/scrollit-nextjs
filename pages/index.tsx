@@ -53,7 +53,6 @@ const Home: NextPageWithLayout = () => {
                 </p>
               </div>
             </div>
-            {/* <div className="mt-15">GET STARTED</div> */}
             <button type="button" className="btn-primary">
               GET STARTED
             </button>
@@ -106,14 +105,18 @@ const Home: NextPageWithLayout = () => {
         </div>
         <div className="mt-28 flex justify-between">
           <div>
-            <h1>Multiple payment gateways</h1>
+            <h1 className="font-normal text-4xl text-white">
+              Multiple payment gateways
+            </h1>
             <div>
-              <p>
+              <p className="text-base text-white w-96 mt-16">
                 All banks credit/debit cards, netbanking, Google Pay, PayTM,
                 PhonePe & pay later options. Collect payments in any payment
                 mode you want.{' '}
               </p>
-              <Link href="/">Explore Ecommerce</Link>
+              <p className="text-base text-white w-96 mt-16">
+                <Link href="/">Explore Ecommerce</Link>
+              </p>
             </div>
           </div>
           <div>
@@ -125,24 +128,157 @@ const Home: NextPageWithLayout = () => {
             />
           </div>
         </div>
-        <div className="mt-28"></div>
-        <div className="mt-28"></div>
-        <div className="mt-28"></div>
+        <div className="mt-28 flex justify-between">
+          <div>
+            <h1 className="font-normal text-4xl text-white">
+              Worldwide Delivery
+            </h1>
+            <div>
+              <p className="text-base text-white w-96 mt-16">
+                Deliver easily anything anywhere with our 3rd party delivery
+                integrations.
+              </p>
+              <p className="text-base text-white w-96 mt-16">
+                <Link href="/">Explore Scheduling</Link>
+              </p>
+            </div>
+          </div>
+          <div>
+            <Image
+              src="/aboutus.jpg"
+              alt="Image description"
+              width="540"
+              height="360"
+            />
+          </div>
+        </div>
+        <div className="mt-28 flex justify-between">
+          <div>
+            <h1 className="font-normal text-4xl text-white">
+              Seamless order-management
+            </h1>
+            <div>
+              <p className="text-base text-white w-96 mt-16">
+                Control everything from a single dashboard with centralized
+                inventory, order management, pricing & more.
+              </p>
+              <p className="text-base text-white w-96 mt-16">
+                <Link href="/">Browse membership sites</Link>
+              </p>
+            </div>
+          </div>
+          <div>
+            <Image
+              src="/aboutus.jpg"
+              alt="Image description"
+              width="540"
+              height="360"
+            />
+          </div>
+        </div>
+        <div className="mt-28 flex justify-between">
+          <div>
+            <h1 className="font-normal text-4xl text-white">
+              Seamless order-management
+            </h1>
+            <div>
+              <p className="text-base text-white w-96 mt-16">
+                Control everything from a single dashboard with centralized
+                inventory, order management, pricing & more.
+              </p>
+              <p className="text-base text-white w-96 mt-16">
+                <Link href="/">Browse membership sites</Link>
+              </p>
+            </div>
+          </div>
+          <div>
+            <Image
+              src="/aboutus.jpg"
+              alt="Image description"
+              width="540"
+              height="360"
+            />
+          </div>
+        </div>
       </div>
-      {/* <Image
-        src="/Google.png"
-        alt="Google Logo"
-        width={272}
-        height={92}
-        priority
-      />
-      <Search />
-      <p>
-        Google offered in:{' '}
-        <Link href="/" locale={locale === 'en' ? 'fr' : 'en'}>
-          <a className="underline text-blue-600"> Français</a>
-        </Link>
-      </p> */}
+      <div className="w-full bg-[#F0EBE3] px-10 pt-14 pb-16">
+        <div className="font-normal text-[144px]">
+          <h1 className="text-left">MARKET</h1>
+          <h1 className="text-right">YOUR</h1>
+          <h1 className="text-center">BUSINESS</h1>
+        </div>
+        <div className="mt-28 flex justify-between text-[#000000]">
+          <div>
+            <Image
+              src="/aboutus.jpg"
+              alt="Image description"
+              width="540"
+              height="360"
+            />
+          </div>
+          <div className="pr-24">
+            <h1 className="font-normal text-4xl">Manage Dashboard reports</h1>
+            <div>
+              <p className="text-base w-96 mt-16">
+                Set up email campaigns that pull in your site’s styles,
+                products, and blog posts so your communications feel
+                effortlessly on-brand.
+              </p>
+              <p className="text-base w-96 mt-16">
+                <Link href="/">Create email campaigns</Link>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-28 flex justify-between text-[#000000]">
+          <div>
+            <Image
+              src="/aboutus.jpg"
+              alt="Image description"
+              width="540"
+              height="360"
+            />
+          </div>
+          <div className="pr-36">
+            <h1 className="font-normal text-4xl">SMS/Email Marketing</h1>
+            <div>
+              <p className="text-base w-96 mt-16">
+                Create stunning, professional-looking content for all your
+                social channels and manage your link in bio with the Unfold app.
+                Choose from hundreds of templates and unique filters, fonts, and
+                animations.
+              </p>
+              <p className="text-base w-96 mt-16">
+                <Link href="/">Try Unfold App</Link>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-28 flex justify-between text-[#000000]">
+          <div>
+            <Image
+              src="/aboutus.jpg"
+              alt="Image description"
+              width="540"
+              height="360"
+            />
+          </div>
+          <div className="pr-36">
+            <h1 className="font-normal text-4xl">Social Media Marketing</h1>
+            <div>
+              <p className="text-base w-96 mt-16">
+                Create stunning, professional-looking content for all your
+                social channels and manage your link in bio with the Unfold app.
+                Choose from hundreds of templates and unique filters, fonts, and
+                animations.
+              </p>
+              <p className="text-base w-96 mt-16">
+                <Link href="/">Try Unfold App</Link>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
