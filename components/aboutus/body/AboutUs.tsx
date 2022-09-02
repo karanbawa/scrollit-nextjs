@@ -1,10 +1,9 @@
 import Image from 'next/image';
-import styles from './AboutUs.module.css';
 
 const AboutUs = () => {
   return (
     <div className="flex flex-col w-full h-full">
-      <div className={styles.aboutImage}></div>
+      {/* <div className={styles.aboutImage}></div> */}
       {/* <Image
         src="/aboutus.jpg"
         alt="Image description"
